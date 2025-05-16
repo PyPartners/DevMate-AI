@@ -42,7 +42,7 @@
     *   [Markdown Display Issues](#markdown-display-issues)
 8.  [Frequently Asked Questions (FAQ)](#8-frequently-asked-questions-faq)
 9.  [Contact and Support](#9-contact-and-support)
-10. [License](#10-license) (If you have a specific license)
+10. [License](#10-license)
 
 ---
 
