@@ -166,11 +166,13 @@ The settings dialog contains the following options:
 ### Gemini Model
 
 *   **Description**: A dropdown menu to select the Gemini model to be used for API requests.
-*   **Available Models (Examples, may vary)**:
-    *   `gemini-1.5-pro-latest` (Recommended default)
-    *   `gemini-1.5-flash-latest`
-    *   `gemini-pro`
-    *   (Other models might be added in `core/config.py` if available for your key)
+*   **Available Models**:
+    *   `gemini-2.5-flash-preview-04-17` (Recommended default)
+    *   `gemini-2.0-flash`
+    *   `gemini-2.0-flash-lite`
+    *   `gemini-1.5-flash`
+    *   `gemini-1.5-flash-8b`
+    *   (Other models might be added in `core/constants.py` if available for your key)
 *   **Usage**: Choose the model that best suits your needs and budget (if there are costs associated with advanced models or heavy usage). Models vary in their capabilities, speed, cost, and rate limits.
 
 After making changes, click the "Save Settings" button to apply them.
