@@ -1,4 +1,4 @@
-**AI Dev Helper – Personal Programmer Assistant Documentation**
+**DevMate AI – Personal Programmer Assistant Documentation**
 
 **Version: 1.0**
 **Developer: Mohammed Alhaji**
