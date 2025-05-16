@@ -73,27 +73,21 @@ This program is intended for:
 
 ### Installation Steps
 
-The program is designed to be generated using the `project_generator.py` script. To install and run the program:
 
-1.  **Download/Copy `project_generator.py`**: Obtain this file.
-2.  **Run the Generator**:
-    *   Open your terminal (Command Prompt, PowerShell, Terminal) in the directory where `project_generator.py` is saved.
-    *   Execute the command: `python project_generator.py`
-    *   This will create a new folder named `ai-dev-helper-project` containing all program files.
-3.  **Navigate to the Project Directory**:
-    *   `cd ai-dev-helper-project`
-4.  **(Recommended) Create and Activate a Virtual Environment**:
+1.  **Navigate to the Project Directory**:
+    *   `cd DevMate-AI-main`
+2.  **(Recommended) Create and Activate a Virtual Environment**:
     *   `python -m venv venv`
     *   To activate the environment:
         *   **Windows**: `.\venv\Scripts\activate`
         *   **macOS/Linux**: `source venv/bin/activate`
-5.  **Install Requirements**:
+3.  **Install Requirements**:
     *   `pip install -r requirements.txt`
     *   This will install necessary libraries such as `PyQt5`, `google-generativeai`, `markdown2`, and `Pygments`.
-6.  **(Optional but important for UI) Add Program Icon**:
+4.  **(Optional but important for UI) Add Program Icon**:
     *   Create/download an image file with a `.png` extension (preferably square, e.g., 256x256 pixels).
     *   Save it as `app_icon.png` inside the `ai-dev-helper-project/assets/` folder.
-7.  **Run the Program**:
+5.  **Run the Program**:
     *   `python app.py`
 
 ### Obtaining a Gemini API Key
