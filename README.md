@@ -34,7 +34,6 @@
         *   [Regenerate](#regenerate)
 6.  [Advanced Features](#6-advanced-features)
     *   [Context Enrichment via `docs` Folder](#context-enrichment-via-docs-folder)
-    *   [Token Usage Tracking and Rate Limits](#token-usage-tracking-and-rate-limits)
 7.  [Troubleshooting](#7-troubleshooting)
     *   ["Permission Denied 403" Error](#permission-denied-403-error)
     *   ["API Key Missing" Error](#api-key-missing-error)
@@ -84,10 +83,7 @@ This program is intended for:
 3.  **Install Requirements**:
     *   `pip install -r requirements.txt`
     *   This will install necessary libraries such as `PyQt5`, `google-generativeai`, `markdown2`, and `Pygments`.
-4.  **(Optional but important for UI) Add Program Icon**:
-    *   Create/download an image file with a `.png` extension (preferably square, e.g., 256x256 pixels).
-    *   Save it as `app_icon.png` inside the `ai-dev-helper-project/assets/` folder.
-5.  **Run the Program**:
+4.  **Run the Program**:
     *   `python app.py`
 
 ### Obtaining a Gemini API Key
@@ -260,19 +256,6 @@ Below the "Result from Gemini" area in each tab, you will find the following but
     *   Relevant code snippets.
 *   When you send any request to Gemini, the program will read the content of these files and append it to the prompt as additional context. This helps Gemini understand your project better and provide more accurate and tailored responses.
 *   Upon program startup, you will be notified if files were loaded from this folder or if the folder was not found/empty.
-
-### Token Usage Tracking and Rate Limits
-
-*   **Usage Display**: After each successful request, the program will attempt to display the number of tokens consumed (prompt, candidate, and total) in the status bar.
-*   **Rate Limit Tracking (RPM/TPM)**:
-    *   The program performs approximate tracking of Requests Per Minute (RPM) and Tokens Per Minute (TPM) consumed *during the current application session*.
-    *   RPM and TPM limits for each model are defined in `core/config.py` (in the `MODEL_LIMITS` dictionary). **Important**: Ensure these values match the official Google limits for your specific models and API key.
-    *   If usage approaches these limits (default 80%, defined by `RATE_LIMIT_WARNING_THRESHOLD` in `core/config.py`), a warning message will appear in the status bar.
-    *   If the calculated RPM limit is reached, a new request might be temporarily blocked, and a dialog box will appear.
-*   **Tracking Limitations**:
-    *   Tracking is only for the current session and does not account for usage via other applications or previous sessions.
-    *   Daily limits (RPD) are not directly tracked within the application.
-    *   **For accurate information on your usage and remaining quota, always refer to your Google Cloud Console or Google AI Studio dashboard.**
 
 ## 7. Troubleshooting
 
