@@ -331,3 +331,7 @@ Below the "Result from Gemini" area in each tab, you will find the following but
 
 This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for details.
+
+## Contributors
+- [@hamadasyr](https://github.com/hamadasyr)
+- [@imsara-py](https://github.com/imsara-py) 
