@@ -295,7 +295,7 @@ Below the "Result from Gemini" area in each tab, you will find the following but
 *   **Q: Can I use the program offline?**
     *   A: No, the program requires an internet connection to access the Gemini API.
 *   **Q: Is the program free to use?**
-    *   A: The program itself is free (and open source, if you choose). However, using the Gemini API may incur costs based on the model used and usage volume, according to Google's pricing. Basic models often have a generous free tier.
+    *   A: The program itself is free (and open source). However, using the Gemini API may incur costs based on the model used and usage volume, according to Google's pricing. Basic models often have a generous free tier.
 *   **Q: How can I contribute to the program's development?**
     *   A: You can contribute by reporting bugs, suggesting new features, or submitting pull requests with code to the project repository .
 *   **Q: Is my data (code, prompts) secure?**
